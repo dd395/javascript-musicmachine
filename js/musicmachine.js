@@ -64,12 +64,15 @@ $(document).ready(function () {
     });
 
     $("#songOneButton").click(function () {
-        playRecording(recordedNotes);
+        playRecording(songOne);
     });
 
     $("#songTwoButton").click(function () {
-        playRecording(recordedNotes);
+        playRecording(songTwo);
     });
+
+
+
 
     // Assign functions to the other buttons
     $("#recordButton").click(toggleRecording);
